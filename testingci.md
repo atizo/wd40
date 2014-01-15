@@ -31,9 +31,9 @@ Fasten-up the tests by [reusing the database](https://github.com/django-nose/dja
     REUSE_DB=1 ./manage.py test
 
 
-## Karma for Javascript ##
+## Karma for JavaScript ##
 
-Setup the [Karma](http://karma-runner.github.io) test runner and run it from a [Grunt](http://gruntjs.com) task. For this, add `grunt-karma` to your client's NPM dependencies.
+Setup the [Karma](http://karma-runner.github.io) test runner and run it from the [Grunt](http://gruntjs.com) task `grunt test`. For this, add the NPM package `grunt-karma` to your client's dependencies.
 
 Install [PhantomJS](http://phantomjs.org), the headless WebKit browser, and configure Karma to use it.
 
