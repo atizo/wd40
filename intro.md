@@ -1,19 +1,16 @@
-Introduction
-============
+# Introduction #
 
 This document is like WD-40 for your web application projects. And we are talking [rocket science](https://en.wikipedia.org/wiki/WD-40) here! It makes your web development go smooth and slick using this extra knowledge you always looked for.
 
 
-Background
-----------
+## Background ##
 
 The authors of this document are a small team of software engineers and an interaction designer, based in Berne, Switzerland. For about six years we've been designing, developing and maintaining the virtual brainstorming platform [Atizo.com](https://www.atizo.com). During this time we've learned a lot about building real world, reliable and state of the art web applications. In an attempt to share these insights with you, we like to provide this document and a sample application.
 
 If you have any feedback or corrections, feel free to open a pull request or issue.
 
 
-Prerequisites
--------------
+## Prerequisites ##
 
 This collection is intended for programmers already having experience with web applications and understanding core web technologies like HTML5 and CSS3. We assume you work with a Unix-based operating system and know Django, Relational Databases and AngularJS.
 
