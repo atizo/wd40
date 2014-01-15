@@ -31,4 +31,15 @@ Fasten-up the tests by [reusing the database](https://github.com/django-nose/dja
     REUSE_DB=1 ./manage.py test
 
 
+## Karma for Javascript ##
+
+Setup the [Karma](http://karma-runner.github.io) test runner and run it from a [Grunt](http://gruntjs.com) task. For this, add `grunt-karma` to your client's NPM dependencies.
+
+Install [PhantomJS](http://phantomjs.org), the headless WebKit browser, and configure Karma to use it.
+
+    npm install phantomjs
+
+For more details, checkout the [Karma configuration file]() and the [Grunt task]() as used in the Braindump application.
+
+
 ## Travis ##
