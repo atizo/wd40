@@ -23,6 +23,8 @@ Fasten-up the tests by [reusing the database](https://github.com/django-nose/dja
 
 ### Use models in tests ###
 
+TODO: Avoid the DB. Expmlain http://www.voidspace.org.uk/python/mock/
+
 Very often, a test requires data to deal with (some users with profiles, entries etc.). A test function must be self-sufficient (they may be runned in any order), so always create the required objects at the beginning of the function. You can create objects used by multiple test functions in the test case's `setUp()` function.
 
 To create test objects conveniently, we ended up writing a model creation mixin for the most common models of our application. This mixin provides helper functions that, if no arguments are given, create a model that has meaningful default values and randomized unique data (like the username). Here is an example usage of the creation mixin:
