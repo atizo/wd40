@@ -23,7 +23,7 @@ Fasten-up the tests by [reusing the database](https://github.com/django-nose/dja
 
 ### Use models in tests ###
 
-TODO: Avoid the DB. Expmlain http://www.voidspace.org.uk/python/mock/
+TODO: Avoid the DB. Explain https://factoryboy.readthedocs.org/en/latest/orms.html#django and http://www.voidspace.org.uk/python/mock/
 
 Very often, a test requires data to deal with (some users with profiles, entries etc.). A test function must be self-sufficient (they may be runned in any order), so always create the required objects at the beginning of the function. You can create objects used by multiple test functions in the test case's `setUp()` function.
 
