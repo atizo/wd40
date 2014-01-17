@@ -71,3 +71,4 @@ We use [coverage.py](http://nedbatchelder.com/code/coverage/) for Python and [Is
 tbd. (configuration details, run)
 
 ## Travis ##
+http://docs.travis-ci.com/user/deployment/heroku/
